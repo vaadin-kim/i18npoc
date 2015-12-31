@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "i18npoc.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in i18npoc.scss */
+.i18npoc {
+  @include addons;
+  @include i18npoc;
+}
